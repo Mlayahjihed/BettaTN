@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../assets/images/Logo.svg";
+
 export default function NavBar() {
   return (
-    <div
+    <header
       className="w-full fixed top-0 left-0 z-20 font-primary
   }, "
     >
@@ -143,6 +143,6 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
-    </div>
+    </header>
   );
 }
