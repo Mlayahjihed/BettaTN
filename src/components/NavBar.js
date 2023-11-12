@@ -4,8 +4,7 @@ import logo from "../assets/images/Logo.svg";
 export default function NavBar() {
   return (
     <header
-      className="w-full fixed top-0 left-0 z-20 font-primary
-  }, "
+      className="w-full fixed top-0 left-0 z-20 font-primary "
     >
       <div className="md:px-10 py-3 px-5 bg-white md:flex justify-between items-center gap-2">
         <div className="flex text-2xl gap-1 items-center cursor-pointer">
